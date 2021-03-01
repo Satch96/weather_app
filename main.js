@@ -1,6 +1,6 @@
 
 const apiKey = '&APPID=ec3f1fad97e7dc99afbf59986b5046ed';
-const url = 'http://api.openweathermap.org/data/2.5/weather?q=';
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=';
 const searchButton = document.getElementById("searchButton");
 const error_message = document.getElementById("error_message");
 const celsius_button = document.getElementById("celsius");
