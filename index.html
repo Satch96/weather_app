@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Weather</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="content">
+        <div id="input_container">
+            <input type="text" id="location" name="location" placeholder="Enter city eg. London">
+            <button id="searchButton">Search</button>            
+        </div>
+        <div id="error_message" class="error_message"><small>Please enter a valid city</small></div>
+        <div id="toggle">
+            <button id="celsius" class="inline" disabled>°C</button>
+            <button id="fahrenheit" class="inline">°F</button>
+        </div>
+        <div id = "content_container">
+            <div id="cityName"></div>
+           <div id="line1">
+            <div id="image">
+                <img src="#">
+            </div>
+            <div id="main"></div>
+           </div>
+           <div id="line2">
+            <div id="img_description"></div>
+            <div id="feels_like"></div>
+           </div>
+           <div id="info"></div>
+        </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

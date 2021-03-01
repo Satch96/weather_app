@@ -1,0 +1,89 @@
+#content{
+    margin-inline: 500px;
+    margin-top: 30px;
+}
+#content_container{
+    border: 3px solid black;
+    display: block;
+    margin-top: 10px;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    font-size: 17px;
+    font-family: monospace;
+    border-radius: 10px;
+}
+
+#line1{
+    height: 40%;
+}
+
+#line2{
+    margin-top: 5px;
+    height: 10%;
+}
+
+#cityName{
+    font-size: 30px;
+}
+
+#main{
+    width: 49%;
+    height: 100%;
+    text-align: center;
+   font-size: 50px;
+   padding-top: 15px;
+}
+
+#image{
+    width: 49%;
+    height: 100%;
+    float: right;
+}
+
+#feels_like{
+    width: 49%;
+    height: 100%;
+}
+
+#img_description{
+    width: 49%;
+    height: 100%;
+    float: right;
+}
+
+#info{
+    margin-top: 20px;
+    width: 100%;
+    text-align: left;
+    padding-left: 3px;
+}
+
+.error_message{
+    visibility: hidden;
+    color: red;
+    margin-top: 8px;
+}
+
+.show{
+    visibility: visible;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+#toggle{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 92px;
+}
+
+.inline{
+    display: inline-block;
+    margin-right: -4px;
+    width: 51px;
+    text-align: center;
+    font-family: monospace;
+}
