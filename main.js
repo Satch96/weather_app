@@ -154,3 +154,4 @@ function weatherIcon(data){
 }
 
 getWeather('london');
+console.log("ass")
