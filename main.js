@@ -6,6 +6,15 @@ const error_message = document.getElementById("error_message");
 const celsius_button = document.getElementById("celsius");
 const fahrenheit_button = document.getElementById("fahrenheit");
 
+var requirejs = require('requirejs');
+
+requirejs.config({
+    //Pass the top-level main.js/index.js require
+    //function to requirejs so that node modules
+    //are loaded relative to the top-level JS file.
+    nodeRequire: require
+});
+
 require('dotenv').config();
 
 let current_temp = "celsius";
